@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    pad: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    position: relative;
+    height: 55vh;
+    background: url("img/wot-masthead-dark.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.mobile-nav {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding: 40px;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.mobile-nav-links {
+    position: absolute;
+    list-style-type: none;  
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100%;
+    margin-right: 20%;
+}
+
+.mobile-nav-link-item {
+    margin-left: 2em;
+}
+
+.mobile-nav-link {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.topLeftLogo {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 5%
+}
+
+header {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+    width: 760px;
+    height: 240px;
+    justify-content: center;
+    margin: 0 auto;
+    font-family: 'Oswald';
+}
+
+.yourDigital {
+    width: 90%;
+    font-size: 1.5em;
+}
+
+.workshop {
+    font-size: 155px;
+    line-height: 140px;
+}
+
+.buildingBusiness {
+    font-size: 1.3em;
+}
+
+.learnMore {
+    display: block;
+    widows: 360px;
+    height: 60px;
+    background: #C8E23A;
+    font-family: 'Open Sans', sans-serif;
+    font: bold
+    color: #fff;
+    
+}
